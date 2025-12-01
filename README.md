@@ -45,8 +45,6 @@ Trong thư mục `test/` đã có sẵn các file chuẩn `result*.txt`.
 Có thể dùng `diff` để kiểm tra:
 
 ```bash
-cd /home/sagiri/Downloads/week3-thxdctd
-
 diff -u test/result1.txt out1.txt
 diff -u test/result2.txt out2.txt
 diff -u test/result3.txt out3.txt
