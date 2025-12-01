@@ -1,0 +1,12 @@
+Program Example5; (* Test repeat-until and multi-assign *)
+Var x, y, z : Integer;
+Begin
+  x := 0;
+  y := 1;
+  z := 2;
+  Repeat
+    x, y, z := x + 1, y + 1, z + 1;
+  Until x = 3;
+End.
+
+
